@@ -402,6 +402,7 @@ class Checks():
         if self.env.cuda_version:
             self.output.info("CUDA version: " + self.env.cuda_version)
             self.env.cuda_path = chk[chk.find("=>") + 3:chk.find("targets") - 1]
+            self.env.cuda_path = chk[chk.find('=>') + 3:chk.find("/lib")]
 
     def cuda_check_windows(self):
         """ Check Windows CUDA Version """
