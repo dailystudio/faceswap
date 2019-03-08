@@ -20,4 +20,4 @@ fi
 photo_dir=${1}
 output_dir=${2}
 
-python3 faceswap.py extract -i $1 -o $2
+python3 faceswap.py extract -i $1 -o $2 < /dev/null

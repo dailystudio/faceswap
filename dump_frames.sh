@@ -29,4 +29,4 @@ echo "dumpping frames from ${video_file} to directory: [${target_dir}], frames p
 
 mkdir -p ${target_dir}
 
-ffmpeg -i ${video_file} ${target_dir}/${video_prefix}_video-frame-%d.png
+ffmpeg -i ${video_file} ${target_dir}/${video_prefix}_video-frame-%d.png < /dev/null

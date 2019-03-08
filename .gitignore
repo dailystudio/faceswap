@@ -12,6 +12,7 @@
 !*.png
 !*.py
 !*.txt
+!*.sh
 !.cache
 !Dockerfile*
 !requirements*
