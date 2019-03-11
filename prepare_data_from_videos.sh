@@ -4,11 +4,11 @@ function print_usage {
   echo "Usage:"
   echo
   echo "  $0 person videos_list_file proxy"
-  echo "    this will prepare faces data for the person automatically"
+  echo "    this will prepare faces data for the person from videos automatically"
   echo ""
-  echo "    persaon:		person name"
-  echo "    videos_list_file:	a vidoes list file with information pair [person, youtube video id] in each line."
-  echo "    proxy:		proxy if it is required"
+  echo "    person:		        person name"
+  echo "    videos_list_file:	a videos list file with information pair [person, youtube video id] in each line."
+  echo "    proxy:		        proxy if it is required"
   echo
 
   exit
